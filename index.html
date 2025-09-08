@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Racking Systems</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    model-viewer {
+      width: 100%;
+      max-width: 800px;
+      height: 500px;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+      background: white;
+    }
+    .model-title {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Explore Our Racking Systems in 3D</h1>
+
+  <div>
+    <div class="model-title">Pallet Shuttle System</div>
+    <model-viewer src="models/pallet-shuttle.glb" alt="Pallet Shuttle" camera-controls auto-rotate></model-viewer>
+  </div>
+
+  <div>
+    <div class="model-title">Drive-In Racking System</div>
+    <model-viewer src="models/gravityanimated.glb" alt="Drive-In Racking" camera-controls auto-rotate autoplay></model-viewer>
+  </div>
+
+  <div>
+    <div class="model-title">Gravity Racking System</div>
+    <model-viewer src="models/gravity.glb" alt="Gravity Racking" camera-controls auto-rotate autoplay></model-viewer>
+  </div>
+  <div class="model-title">Rack Clad Warehouse</div>
+    <model-viewer src="models/rackclad.glb" alt="Rack Clad Warehouse" camera-controls auto-rotate autoplay></model-viewer>
+  </div>
+
+</body>
+</html>
+
